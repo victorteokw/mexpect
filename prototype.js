@@ -1,27 +1,28 @@
-const { expect, User } = require('mexpect');
+
+const { user } = require('mexpect/');
 
 describe("User", () => {
 
   describe("name", () => {
 
     it("exists", () => {
-      expect(User.name).toBeExist();
+      expect(user.name).toBeExist();
     });
 
     it("is a string", () => {
-      expect(User.name).toBeA(String);
+      expect(user.name).toBeA(String);
     });
 
     it("is required", () => {
-      expect(User.name).toBeRequired();
+      expect(user.name).toBeRequired();
     });
 
   });
 
 });
 
-expect(User.name).toBeExist();
-expect(User.age).toMatch(/sdfsdfsdf/);
-expect(User.name).toBeUnique();
+expect(user.name).toBeExist();
+expect(user.age).toMatch(/sdfsdfsdf/);
+expect(user.name).toBeUnique();
 
-expect(User.settings.iphone).toBeA(String);
+expect(user.settings.iphone).toBeA(String);
