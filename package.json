@@ -1,0 +1,27 @@
+{
+  "name": "mexpect",
+  "version": "0.1.0",
+  "description": "Mongoose model test matcher support.",
+  "main": "prototype.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-man": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangkaiyulw/mexpect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangkaiyulw/mexpect/issues"
+  },
+  "homepage": "https://github.com/zhangkaiyulw/mexpect#readme"
+}
