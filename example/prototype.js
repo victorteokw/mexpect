@@ -1,5 +1,5 @@
 
-const { user } = require('mexpect/');
+const { user } = require('mexpect/descriptors');
 
 describe("User", () => {
 
