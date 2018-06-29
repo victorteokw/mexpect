@@ -1,6 +1,6 @@
 {
   "name": "mexpect",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Mongoose model test matcher support.",
   "main": "index.js",
   "directories": {
